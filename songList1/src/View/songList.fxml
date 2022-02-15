@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="7.0" layoutY="6.0" prefHeight="258.0" prefWidth="212.0">
+         <children>
+            <Label text="Add/Edit" />
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Title:    " />
+                  <TextField prefHeight="26.0" prefWidth="84.0" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="27.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Artist:   " />
+                  <TextField prefHeight="26.0" prefWidth="84.0" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="27.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Album: " />
+                  <TextField prefHeight="26.0" prefWidth="84.0" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="27.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Year:    " />
+                  <TextField prefHeight="26.0" prefWidth="84.0" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="209.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="addButton" mnemonicParsing="false" text="ADD" />
+                  <Pane prefHeight="0.0" prefWidth="30.0" />
+                  <Button fx:id="editButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="43.0" text="Edit" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <ListView layoutX="160.0" layoutY="8.0" prefHeight="384.0" prefWidth="190.0" />
+      <VBox layoutX="356.0" layoutY="14.0" prefHeight="258.0" prefWidth="212.0">
+         <children>
+            <Label text="Song Details" />
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Title:    " />
+                  <Label prefHeight="17.0" prefWidth="140.0" text="Delete this text" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="27.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Artist:   " />
+                  <Label prefHeight="17.0" prefWidth="131.0" text="delete this text" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="27.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Album: " />
+                  <Label prefHeight="17.0" prefWidth="151.0" text="delete this text" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="27.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Year:    " />
+                  <Label prefHeight="17.0" prefWidth="156.0" text="delete this text" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button fx:id="deleteButton" layoutX="356.0" layoutY="354.0" mnemonicParsing="false" text="Delete" />
+   </children>
+</AnchorPane>
